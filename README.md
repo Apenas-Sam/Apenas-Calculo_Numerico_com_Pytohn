@@ -23,9 +23,9 @@ Construindo uma pequena biblioteca de calculo numérico com o que eu aprendi no 
 
 ## Métodos em progresso
 
-- [] Integração Numérica
-  - [] Regra do trapézio
-  - [] Regra 1/3 de Simpson
-- [] Soluções numéricas de equações diferenciais ordinárias
-  - [] Problema de valor inicial
-  - [] Equações de ordem superior
+- [ ] Integração Numérica
+  - [ ] Regra do trapézio
+  - [ ] Regra 1/3 de Simpson
+- [ ] Soluções numéricas de equações diferenciais ordinárias
+  - [ ] Problema de valor inicial
+  - [ ] Equações de ordem superior
