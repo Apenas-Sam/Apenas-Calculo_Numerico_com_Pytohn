@@ -184,8 +184,8 @@ def derivPhiPolyG3(x = None):
     return x**2/3
 
 r = RaizNumerica(dominio = np.linspace(-2,2,1000), funcao=polyG3,derivFuncao=derivPolyG3,phi = phiPolyG3, derivPhi= derivPhiPolyG3)
-#r.mostrarFuncao()
-#r.bisseccao(a = 0.32, b = 0.34, tol = 10/10**6)
+r.mostrarFuncao()
+r.bisseccao(a = 0.32, b = 0.34, tol = 10/10**6)
 r.ponto_fixo(a = 0.3, b = 0.4, eps = 5/10**4)
 r.falsa_posicao(a = 0.32,b = 0.34, tol = 1/10**6)
 r.newton_raphson(v = 1, eps = 5/10**4)
