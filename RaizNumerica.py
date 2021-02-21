@@ -170,24 +170,3 @@ class RaizNumerica:
         print("x: ",x,"f(x)",(self.funcao(x)))
         print("nº de iterações: ",iteracoes)
         print()
-
-
-def polyG3(x = None):
-    return x**3 - 9*x  +3
-
-def derivPolyG3(x = None):
-    return 3*x**2 -9
-
-def phiPolyG3(x = None):
-    return (x**3+3)/9
-def derivPhiPolyG3(x = None):
-    return x**2/3
-
-r = RaizNumerica(dominio = np.linspace(-2,2,1000), funcao=polyG3,derivFuncao=derivPolyG3,phi = phiPolyG3, derivPhi= derivPhiPolyG3)
-r.mostrarFuncao()
-r.bisseccao(a = 0.32, b = 0.34, tol = 10/10**6)
-r.ponto_fixo(a = 0.3, b = 0.4, eps = 5/10**4)
-r.falsa_posicao(a = 0.32,b = 0.34, tol = 1/10**6)
-r.newton_raphson(v = 1, eps = 5/10**4)
-r.secante(x_0 = 0.32, x_1 = 0.34,eps = 5/(10**4))
-
